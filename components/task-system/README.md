@@ -100,4 +100,3 @@ interface HandlerConfig {
 }
 ```
 
-For detailed implementation specifications and patterns, refer to the component-level documentation and system contracts.
