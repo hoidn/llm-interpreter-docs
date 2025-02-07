@@ -4,6 +4,38 @@
 
 This starting point of this project is the idea of treating natural language interaction as a form of code execution. We'll eventually use a domain-specific language (DSL) to represent task decomposition and manage execution flow.
 
+## Documentation Index
+
+### Architecture Documentation
+
+- [Architecture Overview](architecture/overview.md): High-level system architecture and navigation index.
+- **Architecture Decision Records (ADRs):**
+  - [001-memory-system.md](architecture/decisions/001-memory-system.md): Memory System Design.
+  - [002-context-management.md](architecture/decisions/002-context-management.md): Context Management Architectural Decisions.
+  - [003-memory-context-update.md](architecture/decisions/003-memory-context-update.md): Remove Context Update Capability.
+  - [004-sequential-context-management.md](architecture/decisions/004-sequential-context-management.md): Sequential Context Management.
+  - [005-context-handling.md](architecture/decisions/005-context-handling.md): Context Generation Clarifications.
+
+### Architectural Patterns
+
+- [Director-Evaluator Pattern](architecture/patterns/director-evaluator.md): Detailed description of the Director-Evaluator pattern.
+- [Context Frame Pattern](architecture/patterns/context-frames.md): Explanation of context frames and environment management.
+- [Resource Management Pattern](architecture/patterns/resource-management.md): Strategies for resource tracking and cleanup.
+
+### System Contracts
+
+- [System Protocols](contracts/protocols.md): Specifications for system protocols and task template schemas.
+- [System Interface Contracts](contracts/interfaces.md): Definitions of component integration contracts and interfaces.
+- [Resource Management Contracts](contracts/resources.md): Guidelines for resource types and management protocols.
+
+### Frequently Asked Questions
+
+- [Resource Management Q&A](architecture/qa/resource-management.md): Clarifications on resource ownership and management.
+
+### Open Questions
+
+- [Architecture Questions](architecture/questions.md): A list of unresolved architecture questions.
+
 ## Architecture
 
 ```mermaid
