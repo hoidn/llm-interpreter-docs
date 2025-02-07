@@ -2,7 +2,9 @@
 
 ## Overview
 
-This starting point of this project is the idea of treating natural language interaction as a form of code execution. We'll eventually use a domain-specific language (DSL) to represent task decomposition and manage execution flow.
+This starting point of this project is the idea of treating natural language interaction as a fancy form of machine code execution. To make good use of it we have to go past writing programs in assembly language (i.e. raw, unstructured prompting).
+
+I would like to eventually develop a domain-specific language (DSL) to represent task composition, manage execution flow, and make LLM workflows very dynamic. In the mean time there are some easier goals.
 
 ## Documentation Index
 
