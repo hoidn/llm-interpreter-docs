@@ -28,6 +28,15 @@ This starting point of this project is the idea of treating natural language int
 - [System Interface Contracts](contracts/interfaces.md): Definitions of component integration contracts and interfaces.
 - [Resource Management Contracts](contracts/resources.md): Guidelines for resource types and management protocols.
 
+### Associative Matching and Template Library
+
+- [Memory System Interfaces](../components/memory/api/interfaces.md): Details on the Memory System and associative matching mechanisms.
+- [Memory System Component](../components/memory/README.md): Overview of the Memory System's role in context management and associative matching.
+- [Task System Types](../components/task-system/spec/types.md): Definitions of task types, including associative matching inputs and outputs.
+- [Task System Interfaces](../components/task-system/spec/interfaces.md): Interfaces related to the Task System and template handling.
+- [System Protocols](contracts/protocols.md): Specifications for system protocols, including the task template schema.
+- [Task System Component](../components/task-system/README.md): Overview of the Task System, including template-based task execution.
+
 ### Frequently Asked Questions
 
 - [Resource Management Q&A](architecture/qa/resource-management.md): Clarifications on resource ownership and management.
