@@ -119,4 +119,4 @@ A DSL frontend will eventually provide a more expressive way to compose tasks:
       chunks)))
 ```
 
-For detailed implementation specifications and patterns, refer to the component-level documentation (especially components/task-system/).
+For detailed implementation specifications and patterns, refer to the system- and component-level documentation (especially components/task-system/).
